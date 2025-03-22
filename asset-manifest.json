@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Badminton-Announcement/static/css/main.dea21310.css",
-    "main.js": "/Badminton-Announcement/static/js/main.4f0cd632.js",
+    "main.css": "/Badminton-Announcement/static/css/main.e559065d.css",
+    "main.js": "/Badminton-Announcement/static/js/main.578afac6.js",
     "index.html": "/Badminton-Announcement/index.html",
-    "main.dea21310.css.map": "/Badminton-Announcement/static/css/main.dea21310.css.map",
-    "main.4f0cd632.js.map": "/Badminton-Announcement/static/js/main.4f0cd632.js.map"
+    "main.e559065d.css.map": "/Badminton-Announcement/static/css/main.e559065d.css.map",
+    "main.578afac6.js.map": "/Badminton-Announcement/static/js/main.578afac6.js.map"
   },
   "entrypoints": [
-    "static/css/main.dea21310.css",
-    "static/js/main.4f0cd632.js"
+    "static/css/main.e559065d.css",
+    "static/js/main.578afac6.js"
   ]
 }
