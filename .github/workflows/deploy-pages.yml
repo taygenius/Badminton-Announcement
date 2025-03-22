@@ -33,7 +33,6 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "18"
-          cache: npm
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Install dependencies
@@ -41,7 +40,7 @@ jobs:
       - name: Build
         run: npm run build
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v1
         with:
           path: ./build
 
