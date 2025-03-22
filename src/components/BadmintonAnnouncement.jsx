@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Calendar, Clock, Copy, AlertCircle } from 'lucide-react';
+import { Calendar, Clock, Copy } from 'lucide-react';
 
 // Simple card components since shadcn/ui components might not be available
 const Card = ({ children }) => (
@@ -16,14 +16,6 @@ const CardTitle = ({ children }) => (
 
 const CardContent = ({ children }) => (
   <div className="p-6 space-y-4">{children}</div>
-);
-
-const Alert = ({ children }) => (
-  <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4">{children}</div>
-);
-
-const AlertDescription = ({ children }) => (
-  <p className="text-sm text-yellow-700">{children}</p>
 );
 
 const BadmintonAnnouncement = () => {
